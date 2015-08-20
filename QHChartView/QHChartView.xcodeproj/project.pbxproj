@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC672E2E1B855FBD00D791FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E2D1B855FBD00D791FA /* main.m */; };
+		EC672E311B855FBD00D791FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E301B855FBD00D791FA /* AppDelegate.m */; };
+		EC672E341B855FBD00D791FA /* WelcomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E331B855FBD00D791FA /* WelcomViewController.m */; };
+		EC672E371B855FBD00D791FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC672E351B855FBD00D791FA /* Main.storyboard */; };
+		EC672E391B855FBD00D791FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC672E381B855FBD00D791FA /* Images.xcassets */; };
+		EC672E3C1B855FBD00D791FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC672E3A1B855FBD00D791FA /* LaunchScreen.xib */; };
+		EC672E481B855FBD00D791FA /* QHChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E471B855FBD00D791FA /* QHChartViewTests.m */; };
+		EC672E531B8560DC00D791FA /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E521B8560DC00D791FA /* PieChartViewController.m */; };
+		EC672E561B8560EF00D791FA /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E551B8560EF00D791FA /* LineChartViewController.m */; };
+		EC672E681B8562F500D791FA /* QHCircleDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E5A1B8562F500D791FA /* QHCircleDotView.m */; };
+		EC672E691B8562F500D791FA /* QHLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E5C1B8562F500D791FA /* QHLineChartView.m */; };
+		EC672E6A1B8562F500D791FA /* QHLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E5E1B8562F500D791FA /* QHLineView.m */; };
+		EC672E6B1B8562F500D791FA /* CycleDrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E611B8562F500D791FA /* CycleDrawLineView.m */; };
+		EC672E6C1B8562F500D791FA /* CyclePieIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E631B8562F500D791FA /* CyclePieIntroductionView.m */; };
+		EC672E6D1B8562F500D791FA /* CyclePieView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E651B8562F500D791FA /* CyclePieView.m */; };
+		EC672E6E1B8562F500D791FA /* QHCycleRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E671B8562F500D791FA /* QHCycleRotationGestureRecognizer.m */; };
+		EC672E761B85632100D791FA /* UIView+QHUIViewCtg.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E711B85632100D791FA /* UIView+QHUIViewCtg.m */; };
+		EC672E771B85632100D791FA /* UILabel+QHLabelCtg.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E731B85632100D791FA /* UILabel+QHLabelCtg.m */; };
+		EC672E781B85632100D791FA /* NSString+QHNSStringCtg.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E751B85632100D791FA /* NSString+QHNSStringCtg.m */; };
+		EC672E7C1B85633E00D791FA /* QHUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EC672E7B1B85633E00D791FA /* QHUtil.m */; };
+		EC672E811B85693A00D791FA /* piePointerBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC672E7F1B85693A00D791FA /* piePointerBg@2x.png */; };
+		EC672E821B85693A00D791FA /* pieColorfulBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC672E801B85693A00D791FA /* pieColorfulBg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC672E421B855FBD00D791FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC672E201B855FBD00D791FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC672E271B855FBD00D791FA;
+			remoteInfo = QHChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC672E281B855FBD00D791FA /* QHChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC672E2C1B855FBD00D791FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC672E2D1B855FBD00D791FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC672E2F1B855FBD00D791FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC672E301B855FBD00D791FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC672E321B855FBD00D791FA /* WelcomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomViewController.h; sourceTree = "<group>"; };
+		EC672E331B855FBD00D791FA /* WelcomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomViewController.m; sourceTree = "<group>"; };
+		EC672E361B855FBD00D791FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC672E381B855FBD00D791FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC672E3B1B855FBD00D791FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC672E411B855FBD00D791FA /* QHChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC672E461B855FBD00D791FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC672E471B855FBD00D791FA /* QHChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHChartViewTests.m; sourceTree = "<group>"; };
+		EC672E511B8560DC00D791FA /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		EC672E521B8560DC00D791FA /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		EC672E541B8560EF00D791FA /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
+		EC672E551B8560EF00D791FA /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
+		EC672E591B8562F500D791FA /* QHCircleDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHCircleDotView.h; sourceTree = "<group>"; };
+		EC672E5A1B8562F500D791FA /* QHCircleDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHCircleDotView.m; sourceTree = "<group>"; };
+		EC672E5B1B8562F500D791FA /* QHLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHLineChartView.h; sourceTree = "<group>"; };
+		EC672E5C1B8562F500D791FA /* QHLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHLineChartView.m; sourceTree = "<group>"; };
+		EC672E5D1B8562F500D791FA /* QHLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHLineView.h; sourceTree = "<group>"; };
+		EC672E5E1B8562F500D791FA /* QHLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHLineView.m; sourceTree = "<group>"; };
+		EC672E601B8562F500D791FA /* CycleDrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleDrawLineView.h; sourceTree = "<group>"; };
+		EC672E611B8562F500D791FA /* CycleDrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleDrawLineView.m; sourceTree = "<group>"; };
+		EC672E621B8562F500D791FA /* CyclePieIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyclePieIntroductionView.h; sourceTree = "<group>"; };
+		EC672E631B8562F500D791FA /* CyclePieIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclePieIntroductionView.m; sourceTree = "<group>"; };
+		EC672E641B8562F500D791FA /* CyclePieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyclePieView.h; sourceTree = "<group>"; };
+		EC672E651B8562F500D791FA /* CyclePieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclePieView.m; sourceTree = "<group>"; };
+		EC672E661B8562F500D791FA /* QHCycleRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHCycleRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		EC672E671B8562F500D791FA /* QHCycleRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHCycleRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		EC672E701B85632100D791FA /* UIView+QHUIViewCtg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QHUIViewCtg.h"; sourceTree = "<group>"; };
+		EC672E711B85632100D791FA /* UIView+QHUIViewCtg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QHUIViewCtg.m"; sourceTree = "<group>"; };
+		EC672E721B85632100D791FA /* UILabel+QHLabelCtg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+QHLabelCtg.h"; sourceTree = "<group>"; };
+		EC672E731B85632100D791FA /* UILabel+QHLabelCtg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+QHLabelCtg.m"; sourceTree = "<group>"; };
+		EC672E741B85632100D791FA /* NSString+QHNSStringCtg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QHNSStringCtg.h"; sourceTree = "<group>"; };
+		EC672E751B85632100D791FA /* NSString+QHNSStringCtg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QHNSStringCtg.m"; sourceTree = "<group>"; };
+		EC672E791B85632F00D791FA /* macrodefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macrodefine.h; sourceTree = "<group>"; };
+		EC672E7A1B85633E00D791FA /* QHUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHUtil.h; sourceTree = "<group>"; };
+		EC672E7B1B85633E00D791FA /* QHUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHUtil.m; sourceTree = "<group>"; };
+		EC672E7D1B8563B200D791FA /* QHHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHHead.h; sourceTree = "<group>"; };
+		EC672E7F1B85693A00D791FA /* piePointerBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piePointerBg@2x.png"; sourceTree = "<group>"; };
+		EC672E801B85693A00D791FA /* pieColorfulBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pieColorfulBg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC672E251B855FBD00D791FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC672E3E1B855FBD00D791FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC672E1F1B855FBD00D791FA = {
+			isa = PBXGroup;
+			children = (
+				EC672E2A1B855FBD00D791FA /* QHChartView */,
+				EC672E441B855FBD00D791FA /* QHChartViewTests */,
+				EC672E291B855FBD00D791FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC672E291B855FBD00D791FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E281B855FBD00D791FA /* QHChartView.app */,
+				EC672E411B855FBD00D791FA /* QHChartViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC672E2A1B855FBD00D791FA /* QHChartView */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E571B8562BB00D791FA /* CharView */,
+				EC672E2F1B855FBD00D791FA /* AppDelegate.h */,
+				EC672E301B855FBD00D791FA /* AppDelegate.m */,
+				EC672E321B855FBD00D791FA /* WelcomViewController.h */,
+				EC672E331B855FBD00D791FA /* WelcomViewController.m */,
+				EC672E511B8560DC00D791FA /* PieChartViewController.h */,
+				EC672E521B8560DC00D791FA /* PieChartViewController.m */,
+				EC672E541B8560EF00D791FA /* LineChartViewController.h */,
+				EC672E551B8560EF00D791FA /* LineChartViewController.m */,
+				EC672E351B855FBD00D791FA /* Main.storyboard */,
+				EC672E381B855FBD00D791FA /* Images.xcassets */,
+				EC672E3A1B855FBD00D791FA /* LaunchScreen.xib */,
+				EC672E2B1B855FBD00D791FA /* Supporting Files */,
+			);
+			path = QHChartView;
+			sourceTree = "<group>";
+		};
+		EC672E2B1B855FBD00D791FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E2C1B855FBD00D791FA /* Info.plist */,
+				EC672E2D1B855FBD00D791FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC672E441B855FBD00D791FA /* QHChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E471B855FBD00D791FA /* QHChartViewTests.m */,
+				EC672E451B855FBD00D791FA /* Supporting Files */,
+			);
+			path = QHChartViewTests;
+			sourceTree = "<group>";
+		};
+		EC672E451B855FBD00D791FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E461B855FBD00D791FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC672E571B8562BB00D791FA /* CharView */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E581B8562F500D791FA /* LineChartView */,
+				EC672E5F1B8562F500D791FA /* PieView */,
+				EC672E6F1B85630900D791FA /* QHSupports */,
+				EC672E7E1B85692400D791FA /* resource */,
+			);
+			path = CharView;
+			sourceTree = "<group>";
+		};
+		EC672E581B8562F500D791FA /* LineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E5B1B8562F500D791FA /* QHLineChartView.h */,
+				EC672E5C1B8562F500D791FA /* QHLineChartView.m */,
+				EC672E5D1B8562F500D791FA /* QHLineView.h */,
+				EC672E5E1B8562F500D791FA /* QHLineView.m */,
+				EC672E591B8562F500D791FA /* QHCircleDotView.h */,
+				EC672E5A1B8562F500D791FA /* QHCircleDotView.m */,
+			);
+			path = LineChartView;
+			sourceTree = "<group>";
+		};
+		EC672E5F1B8562F500D791FA /* PieView */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E641B8562F500D791FA /* CyclePieView.h */,
+				EC672E651B8562F500D791FA /* CyclePieView.m */,
+				EC672E601B8562F500D791FA /* CycleDrawLineView.h */,
+				EC672E611B8562F500D791FA /* CycleDrawLineView.m */,
+				EC672E621B8562F500D791FA /* CyclePieIntroductionView.h */,
+				EC672E631B8562F500D791FA /* CyclePieIntroductionView.m */,
+				EC672E661B8562F500D791FA /* QHCycleRotationGestureRecognizer.h */,
+				EC672E671B8562F500D791FA /* QHCycleRotationGestureRecognizer.m */,
+			);
+			path = PieView;
+			sourceTree = "<group>";
+		};
+		EC672E6F1B85630900D791FA /* QHSupports */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E701B85632100D791FA /* UIView+QHUIViewCtg.h */,
+				EC672E711B85632100D791FA /* UIView+QHUIViewCtg.m */,
+				EC672E721B85632100D791FA /* UILabel+QHLabelCtg.h */,
+				EC672E731B85632100D791FA /* UILabel+QHLabelCtg.m */,
+				EC672E741B85632100D791FA /* NSString+QHNSStringCtg.h */,
+				EC672E751B85632100D791FA /* NSString+QHNSStringCtg.m */,
+				EC672E791B85632F00D791FA /* macrodefine.h */,
+				EC672E7A1B85633E00D791FA /* QHUtil.h */,
+				EC672E7B1B85633E00D791FA /* QHUtil.m */,
+				EC672E7D1B8563B200D791FA /* QHHead.h */,
+			);
+			path = QHSupports;
+			sourceTree = "<group>";
+		};
+		EC672E7E1B85692400D791FA /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC672E7F1B85693A00D791FA /* piePointerBg@2x.png */,
+				EC672E801B85693A00D791FA /* pieColorfulBg@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC672E271B855FBD00D791FA /* QHChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC672E4B1B855FBD00D791FA /* Build configuration list for PBXNativeTarget "QHChartView" */;
+			buildPhases = (
+				EC672E241B855FBD00D791FA /* Sources */,
+				EC672E251B855FBD00D791FA /* Frameworks */,
+				EC672E261B855FBD00D791FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHChartView;
+			productName = QHChartView;
+			productReference = EC672E281B855FBD00D791FA /* QHChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC672E401B855FBD00D791FA /* QHChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC672E4E1B855FBD00D791FA /* Build configuration list for PBXNativeTarget "QHChartViewTests" */;
+			buildPhases = (
+				EC672E3D1B855FBD00D791FA /* Sources */,
+				EC672E3E1B855FBD00D791FA /* Frameworks */,
+				EC672E3F1B855FBD00D791FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC672E431B855FBD00D791FA /* PBXTargetDependency */,
+			);
+			name = QHChartViewTests;
+			productName = QHChartViewTests;
+			productReference = EC672E411B855FBD00D791FA /* QHChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC672E201B855FBD00D791FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = imqiuhang;
+				TargetAttributes = {
+					EC672E271B855FBD00D791FA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EC672E401B855FBD00D791FA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EC672E271B855FBD00D791FA;
+					};
+				};
+			};
+			buildConfigurationList = EC672E231B855FBD00D791FA /* Build configuration list for PBXProject "QHChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC672E1F1B855FBD00D791FA;
+			productRefGroup = EC672E291B855FBD00D791FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC672E271B855FBD00D791FA /* QHChartView */,
+				EC672E401B855FBD00D791FA /* QHChartViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC672E261B855FBD00D791FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC672E811B85693A00D791FA /* piePointerBg@2x.png in Resources */,
+				EC672E821B85693A00D791FA /* pieColorfulBg@2x.png in Resources */,
+				EC672E371B855FBD00D791FA /* Main.storyboard in Resources */,
+				EC672E3C1B855FBD00D791FA /* LaunchScreen.xib in Resources */,
+				EC672E391B855FBD00D791FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC672E3F1B855FBD00D791FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC672E241B855FBD00D791FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC672E6C1B8562F500D791FA /* CyclePieIntroductionView.m in Sources */,
+				EC672E341B855FBD00D791FA /* WelcomViewController.m in Sources */,
+				EC672E6B1B8562F500D791FA /* CycleDrawLineView.m in Sources */,
+				EC672E311B855FBD00D791FA /* AppDelegate.m in Sources */,
+				EC672E6D1B8562F500D791FA /* CyclePieView.m in Sources */,
+				EC672E6E1B8562F500D791FA /* QHCycleRotationGestureRecognizer.m in Sources */,
+				EC672E561B8560EF00D791FA /* LineChartViewController.m in Sources */,
+				EC672E771B85632100D791FA /* UILabel+QHLabelCtg.m in Sources */,
+				EC672E6A1B8562F500D791FA /* QHLineView.m in Sources */,
+				EC672E761B85632100D791FA /* UIView+QHUIViewCtg.m in Sources */,
+				EC672E7C1B85633E00D791FA /* QHUtil.m in Sources */,
+				EC672E781B85632100D791FA /* NSString+QHNSStringCtg.m in Sources */,
+				EC672E681B8562F500D791FA /* QHCircleDotView.m in Sources */,
+				EC672E531B8560DC00D791FA /* PieChartViewController.m in Sources */,
+				EC672E691B8562F500D791FA /* QHLineChartView.m in Sources */,
+				EC672E2E1B855FBD00D791FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC672E3D1B855FBD00D791FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC672E481B855FBD00D791FA /* QHChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC672E431B855FBD00D791FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC672E271B855FBD00D791FA /* QHChartView */;
+			targetProxy = EC672E421B855FBD00D791FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC672E351B855FBD00D791FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC672E361B855FBD00D791FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC672E3A1B855FBD00D791FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC672E3B1B855FBD00D791FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC672E491B855FBD00D791FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC672E4A1B855FBD00D791FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC672E4C1B855FBD00D791FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QHChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC672E4D1B855FBD00D791FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QHChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC672E4F1B855FBD00D791FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QHChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHChartView.app/QHChartView";
+			};
+			name = Debug;
+		};
+		EC672E501B855FBD00D791FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QHChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHChartView.app/QHChartView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC672E231B855FBD00D791FA /* Build configuration list for PBXProject "QHChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC672E491B855FBD00D791FA /* Debug */,
+				EC672E4A1B855FBD00D791FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC672E4B1B855FBD00D791FA /* Build configuration list for PBXNativeTarget "QHChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC672E4C1B855FBD00D791FA /* Debug */,
+				EC672E4D1B855FBD00D791FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC672E4E1B855FBD00D791FA /* Build configuration list for PBXNativeTarget "QHChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC672E4F1B855FBD00D791FA /* Debug */,
+				EC672E501B855FBD00D791FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC672E201B855FBD00D791FA /* Project object */;
+}
